@@ -1,0 +1,117 @@
+@charset "UTF-8";
+@font-face {
+    font-family: idroid;
+    src: url('pacote-projeto-d010/fontes/idroid.otf') format('opentype');
+}
+
+
+
+header{
+    margin: -21px -8px 0% -8px;
+    padding-top: 5px ;
+    background-image:linear-gradient(to bottom,#3CD782,#1B5936);
+    height: 155px;
+}
+header > h1{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header > p{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav > a{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 7px;
+    
+}
+body{
+    background-color: #84e0ad;
+}
+main{
+    background-color: white;
+    max-width: 1000px;
+    min-width: 350px;
+    margin: auto;
+    padding: 5px 10px;
+    box-shadow: 1px 4px 18px rgba(0, 0, 0, 0.575);
+}
+main > h1{
+  font-family: idroid;
+  color: #1B5936;  
+}
+main > h2{
+    font-family: idroid;
+    color: #1B5936;
+    background-image: linear-gradient(to right, #84e0ad80, white);
+    padding: 1pxpx 0 0 7px;
+}
+main > p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 20px;
+    text-align: justify;
+
+}
+iframe{
+    margin: 10px 20px 10px 20px;
+    border: 10px solid black;
+    width: 700px;
+    padding: 30px;
+}
+.d1{
+    background-color: #C5EBD6;
+    border-radius: 10px;
+    box-shadow: 1px -1px 10px rgba(0, 0, 0, 0.397); 
+}
+.p1{
+    text-indent: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    padding: 0px 5px 0px 7px;
+}
+.p2{
+    text-indent: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    padding: 0px 5px 0px 7px;
+}
+.p3{
+    text-indent: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    padding: 0px 5px 10px 7px;
+}
+#pdiv{
+    background-color: #2FA865;
+    border: 10px solid #2FA865;
+    margin: 10px 10px 10px 0px;
+    font: normal bold 1em 'Arial', sans-serif;
+    color: white;
+    width: 427px;
+    border-radius: 10px;
+    
+}
+.d2,.d3{
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.d3{
+    border: 21px solid #C5EBD6;
+}
+footer{
+    background-color: #316747;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1366px;
+    outline: 0px solid #316747;
+    margin: -15px 0px -15px -8px;
+}
+.p4{
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+}
