@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praticando Tabelas</title>
+</head>
+<style>
+    table{
+        border-collapse: collapse;
+    }
+    thead{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1.2em;
+    }
+    th{
+        padding: 3px;
+    }
+    th,td{
+        
+        border: 1px solid black;
+    }
+    td{
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 3px;
+    }
+    .numero{
+       text-align: center;
+    }
+    tfoot  th{
+        font-weight: normal;
+    }
+    
+</style>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>
+                    Melhores jogos
+                </th>
+                <th>
+                    Número de prêmios
+                </th>
+                <th>
+                    Desenvolvedor(a)
+                </th>
+            </tr>
+            
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    The Last of Us
+                </td>
+                <td class="numero">
+                    10
+                </td>
+                <td>
+                    Naughty Dog
+                </td>
+            </tr>
+                <tr>
+                    <td>
+                    Red Dead Redemption 2
+                    </td>
+                    <td class="numero">
+                        8
+                    </td>
+                    <td>
+                        Rockstar
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Cyberpunk 2077
+                    </td>
+                    <td class="numero">
+                        5
+                    </td>
+                    <td>
+                        CD Projekt Red
+                    </td>
+                </tr>
+        </tbody>
+        <tfoot>
+           <tr>
+            <th>
+                Tabela desenvolvida por <strong>Gustavo</strong>
+            </th>
+            <th>
+                -
+            </th>
+            <th>
+                -
+            </th>
+           </tr> 
+        </tfoot>
+    </table>
+</body>
+</html>
